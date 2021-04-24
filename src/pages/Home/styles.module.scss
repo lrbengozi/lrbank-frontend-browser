@@ -1,6 +1,13 @@
-.wrapper {
+.contentBody {
   display: flex;
-  main {
-    flex: 1;
+  padding: 2rem;
+  flex-direction: row;
+
+
+  img {
+    height: 35rem;
+    margin-left: auto;
+    padding: 2rem;
   }
+
 }
