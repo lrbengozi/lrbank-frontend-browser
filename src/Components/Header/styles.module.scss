@@ -1,0 +1,56 @@
+.headerContainer {
+  height: 4.5rem;
+
+  display: flex;
+  align-items: center;
+
+  padding: 2rem 4rem;
+
+  .iconLogo {
+    display: flex;
+
+    height: 3rem;
+    width: 3rem;
+    color: var(--red-400);
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+
+    button {
+      height: 3rem;
+      width: 12rem;
+
+      background: var(--red-300);
+      border: 0;
+      font-size: 1rem;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      color: var(--white);
+  
+      transition: filter 0.2s;
+
+      p {
+        margin-left: auto;
+        display: inline-block;
+
+        &:last-child {
+          transform: translate(50%, 15%);
+        }
+      }
+  
+      &:disabled {
+        cursor: default;
+      }
+  
+      &:hover {
+        filter: brightness(0.85);
+      }
+    }
+  }
+
+  
+}
