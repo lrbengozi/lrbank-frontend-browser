@@ -1,9 +1,15 @@
 import React from 'react';
 
+import styles from './styles.module.scss'
+
 const LoginPage = () => {
   return (
-    <div>
-      <h1>LoginPage</h1>
+    <div className={styles.loginContainer}>
+      <div className={styles.loginBox}>
+        <form autoComplete="nope" className={styles.loginForm}>
+          
+        </form>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,18 @@
+.loginContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(var(--red-500), var(--red-800) 100%);
+}
+
+.loginBox {
+  width: 25rem;
+  height: 36rem;
+  background: #fff;
+  box-shadow: 0 0 1rem var(--red-400);
+  border-radius: 1rem;
+}
+
